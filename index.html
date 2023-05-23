@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lista de Tarefas</title>
+    <style>
+      .done {
+        text-decoration: line-through;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Exercício jQuery</title>
+  </head>
+  <body>
+    <h1>Minhas Tarefas</h1>
+    <div class="container">
+      <form>
+        <label for="nova-tarefa">Adicionar Tarefa:</label>
+        <input type="text" id="nova-tarefa" />
+        <button type="button" onclick="adicionarTarefa()">Adicionar</button>
+      </form>
+    </div>
+    <ul class="text" id="tarefas"></ul>
+    <script src="main.js"></script>
+  </body>
+</html>
